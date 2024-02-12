@@ -4,26 +4,46 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
+
   <body>
-    <h1>Portfolio</h1>
+    <header>
+      <nav>
+        <div class="portfolio">
+          <h1>My Portfolio</h1>
+        </div>
+        <div class="menu">
+          <a href="">Home</a>
+          <a href="">Skills</a>
+          <a href="">Experience</a>
+          <a href="">Education</a>
+        </div>
+      </nav>
+    </header>
 
     <main>
-      <section>
-        <p>Home About Skills Education Work Experience Contact</p>
-      </section>
-
-      <section>
-        Hi there <br />
-        Im Venu Thothalla <br />
-        Welcome to my Portfolio <br />
-        <a href="https://www.linkedin.com/in/venuthothalla/" class="button-link">
-          <button type="button">Linkdin</button>
-        <a href="https://www.linkedin.com/in/thothalla-venu-72bb8422a/"
-          >Github</a
+      <section id="about">
+        <h2>About</h2>
+        <p>
+          Hi there <br />
+          Im Venu Thothalla<br />
+          Welcome to my Portfolio
+        </p>
+        <a
+          href="https://www.linkedin.com/in/venuthothalla/"
+          class="button-link"
         >
+          <button type="button">LinkedIn</button>
+        </a>
+        <a
+          href="https://www.linkedin.com/in/thothalla-venu-72bb8422a/"
+          class="button-link"
+        >
+          <button type="button">GitHub</button>
+        </a>
       </section>
-      <section>
+      <section id="objective">
         <h2>Objective:</h2>
         <p>
           As a qualified graduate with robust software development skills, I'm
@@ -32,7 +52,7 @@
         </p>
       </section>
 
-      <section>
+      <section id="skills">
         <h2>Skills</h2>
         <h4>Programming:</h4>
         <ul>
@@ -49,30 +69,51 @@
         </ul>
       </section>
 
-      <section>
-        <h2>
-          Experience:
-          <h4>Salesforce Developer Intern</h4>
-          <ul>
-            <li>
-              Implemented new enhancements, designed and developed Apex Classes,
-              Controller Classes, and Extensions.
-            </li>
-            <li>
-              Created profiles and roles to ensure security needs were met,
-              demonstrating proficiency in Pick lists, Record Types, and
-              Salesforce-Outlook synchronization.
-            </li>
-            <li>
-              Hands-on knowledge of App Exchange products, performed
-              Salesforce.com administratorroles, showcasing skills in CRM, data
-              management, security, App Logic, integration, database,
-              Salesforce.com development, Apex, Java, SOQL, Visualforce, and
-              Lightning Web Components
-            </li>
-          </ul>
-        </h2>
+      <section id="experience">
+        <h2>Experience:</h2>
+        <h4>Salesforce Developer Intern</h4>
+        <ul>
+          <li>
+            Implemented new enhancements, designed and developed Apex Classes,
+            Controller Classes, and Extensions.
+          </li>
+          <li>
+            Created profiles and roles to ensure security needs were met,
+            demonstrating proficiency in Pick lists, Record Types, and
+            Salesforce-Outlook synchronization.
+          </li>
+          <li>
+            Hands-on knowledge of App Exchange products, performed
+            Salesforce.com administratorroles, showcasing skills in CRM, data
+            management, security, App Logic, integration, database,
+            Salesforce.com development, Apex, Java, SOQL, Visualforce, and
+            Lightning Web Components
+          </li>
+        </ul>
+      </section>
+
+      <section id="projects">
+        <h2>Projects:</h2>
+        <h4>
+          Extracting and visualising Stock Data by Webscraping - using Python
+        </h4>
+        <ul>
+          <li>
+            Enhancing stakeholder decision-making by 20% by implementing
+            Webcraping using yfinance and BeautifulSoup for efficient data
+            extraction
+          </li>
+          <li>
+            Enhanced data comprehension by developing Plotly graphs resulted in
+            a 30% increase in stakeholders efficiency in understanding financial
+            trends
+          </li>
+        </ul>
       </section>
     </main>
+
+    <footer>
+      <p>contact us</p>
+    </footer>
   </body>
 </html>
